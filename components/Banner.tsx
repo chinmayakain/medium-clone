@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="bg-yellow-500 border-y border-black py-10 lg:py-0">
+    <div className="bg-yellow-500 border-b border-black py-10 lg:py-0">
       <div className="flex justify-between px-4 py-10 max-w-7xl max-h-[28rem] mx-auto items-center">
         <div className="flex flex-col space-y-[3rem] justify-center">
           <div className="font-serif font-bold text-8xl max-w-3xl">

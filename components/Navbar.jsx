@@ -5,7 +5,7 @@ import MediumLogoBlack from "../assets/icons/01_Black/Full/SVG/Medium-Logo-Black
 
 const Navbar = () => {
   return (
-    <div className="bg-yellow-500 overflow-auto">
+    <div className="sticky top-0 z-50 bg-yellow-500 overflow-auto border-b border-black py-10 lg:py-0">
       <header className="flex justify-between px-4 py-5 max-w-7xl mx-auto ">
         <div className="flex items-center space-x-5">
           <Link href="/">

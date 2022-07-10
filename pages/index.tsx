@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 
 import Banner from "../components/Banner";
+import BlogSection from "../components/BlogSection";
 import Navbar from "../components/Navbar";
 import Trending from "../components/Trending";
 import { sanityClient } from "../sanity";
@@ -22,6 +23,7 @@ export default function Home({ posts }: Props) {
       <Banner />
       <Trending props={posts} />
       <div className="border-solid border-b border-inherit" />
+      <BlogSection props={posts} />
     </div>
   );
 }
@@ -30,13 +32,15 @@ export const getServerSideProps = async () => {
   const query = `*[_type == "post"]{
     _id,
     title,
+    body,
     author -> {
       name,
       image
     },
     description,
     mainImage,
-    slug
+    slug,
+    publishedAt
   }`;
 
   const posts = await sanityClient.fetch(query);
