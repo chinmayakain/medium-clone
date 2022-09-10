@@ -1,6 +1,7 @@
 # Medium Clone Build Whith Next.js + Tailwind CSS
 
-This is a Portfolio website built in Next.js using Tailwinf CSS. This was a website built to showcase my technical skills, web design skills.
+This is a Portfolio website built in Next.js using Tailwinf CSS. This was a website built to showcase my technical skills, web design skills. 
+**Project in progress....**
 
 ## About
 
