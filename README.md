@@ -1,6 +1,17 @@
 # Medium Clone Build Whith Next.js + Tailwind CSS
 
-This is a Portfolio site. A clone of Medium Site, which is a blogging platform, like Wordpress or Blogger. Which is a place to read articles on the Internet
+This is a Portfolio website built in Next.js using Tailwinf CSS. This was a website built to showcase my technical skills, web design skills.
+
+## About
+
+A clone of "Medium" website. Medium is a social publishing platform that is open to all and home to a diverse array of stories, ideas, and perspectives. Anyone can be an individual contributor, and popular topics on Medium range from mental health to social media, and from world affairs and trending news to productivity hacks. 
+
+## Technologies Used
+
+* Next.js
+* JavaScript
+* TypeScript
+* Tailwind CSS
 
 ## Deployment Status
 
@@ -18,4 +29,4 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-Deployed to the cloud with Netlify.
+## Deployed to the cloud with Netlify.
